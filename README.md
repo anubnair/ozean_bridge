@@ -61,5 +61,19 @@ Note: You can validate the balance
 
 
 
+- Bridge from L2 to L1 Token:
+- 
+```sh
+forge  script scripts/BrigeFromL2ToL1.s.sol --rpc-url "https://ozean-testnet.rpc.caldera.xyz/http" --broadcast
+```
+
+✅  [Success] Hash: 0x9f3116893f4d6821df3f37edb894946c154e91e8cb899efba5cb8fe94f63418d
+
+Block: 5668632
+
+Paid: 0.000000154434498218 ETH (152867 gas * 0.001010254 gwei)
 
 
+
+Note: You can see the token gets burned from L2 and minted in L1:
+![image](images/burned.png)
